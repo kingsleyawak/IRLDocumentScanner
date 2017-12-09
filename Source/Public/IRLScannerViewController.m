@@ -390,12 +390,12 @@
                 [weakSelf.titleLabel setHidden:YES];
                 
             } else {
-                long displayValue = MAX((long)value - 1, 1);
+                //long displayValue = MAX((long)value - 1, 1);
                 [weakSelf.titleLabel setHidden:NO];
-                [weakSelf updateTitleLabel:[NSString stringWithFormat: @"... %ld ...", displayValue]];
+                [weakSelf updateTitleLabel:[NSString stringWithFormat: @"Processing..."]];
             }
             
-            [[weakSelf titleLabel] setBackgroundColor:[[UIColor blackColor] colorWithAlphaComponent:0.5f]];
+            [[weakSelf titleLabel] setBackgroundColor:[[UIColor blackColor] colorWithAlphaComponent:0.4f]];
             
         } else {
             [[weakSelf adjust_bar] setHidden:NO];
