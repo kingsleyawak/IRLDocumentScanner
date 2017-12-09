@@ -196,12 +196,13 @@
 				TargetAttributes = {
 					6178221F1B408FE000D73034 = {
 						CreatedOnToolsVersion = 6.3.2;
-						DevelopmentTeam = 6CHEU74FHQ;
+						DevelopmentTeam = 4J3523WSNT;
 						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					617822381B408FE000D73034 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 4J3523WSNT;
 						TestTargetID = 6178221F1B408FE000D73034;
 					};
 				};
@@ -462,11 +463,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6CHEU74FHQ;
+				DEVELOPMENT_TEAM = 4J3523WSNT;
 				INFOPLIST_FILE = demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.irlmobile.scanner.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irlmobile.scanner.demo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -487,11 +488,11 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6CHEU74FHQ;
+				DEVELOPMENT_TEAM = 4J3523WSNT;
 				INFOPLIST_FILE = demo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.irlmobile.scanner.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.irlmobile.scanner.demo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -506,6 +507,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4J3523WSNT;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -523,6 +525,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4J3523WSNT;
 				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = demoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
